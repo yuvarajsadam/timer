@@ -1,0 +1,48 @@
+.main {
+    text-align: center;
+}
+
+.b1 {
+    background-color: green;
+    width: 50px;
+    height: 30px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.b2 {
+    background-color: red;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    border-width: 0px;
+}
+
+.b3 {
+    background-color: #b0aca0;
+    width: 50px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.b4 {
+    background-color: #54a6f7;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.b5 {
+    background-color: #611abd;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+}
