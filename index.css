@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: #fff;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+#display {
+    font-size: 4rem;
+    margin: 20px 0;
+    color: #2c3e50;
+}
+
+.controls button,
+.modes button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.controls button:nth-child(1) {
+    background-color: #27ae60;
+}
+
+/* START */
+.controls button:nth-child(2) {
+    background-color: #c0392b;
+}
+
+/* STOP */
+.controls button:nth-child(3) {
+    background-color: #7f8c8d;
+}
+
+/* RESET */
+
+.modes button:nth-child(1) {
+    background-color: #34495e;
+}
+
+/* POMODORO */
+.modes button:nth-child(2) {
+    background-color: #2980b9;
+}
+
+/* SHORT BREAK */
+.modes button:nth-child(3) {
+    background-color: #8e44ad;
+}
+
+/* LONG BREAK */
+
+button:hover {
+    opacity: 0.9;
+}
