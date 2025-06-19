@@ -7,7 +7,70 @@
      <title>Pomodoro Timer</title>
      <link rel="stylesheet" href="style.css">
  </head>
-<style></style>
+<style>body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: #fff;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+#display {
+    font-size: 4rem;
+    margin: 20px 0;
+    color: #2c3e50;
+}
+
+.controls button,
+.modes button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.controls button:nth-child(1) {
+    background-color: #27ae60;
+}
+
+/* START */
+.controls button:nth-child(2) {
+    background-color: #c0392b;
+}
+
+/* STOP */
+.controls button:nth-child(3) {
+    background-color: #7f8c8d;
+}
+
+/* RESET */
+
+.modes button:nth-child(1) {
+    background-color: #34495e;
+}
+
+/* POMODORO */
+.modes button:nth-child(2) {
+    background-color: #2980b9;
+}
+
+/* SHORT BREAK */
+.modes button:nth-child(3) {
+    background-color: #8e44ad;
+}
+
+/* LONG BREAK */
+
+button:hover {
+    opacity: 0.9;
+}</style>
  <body>
 
      <h1>Pomodoro Timer</h1>
