@@ -1,14 +1,33 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+ <html lang="en">
 
-<head> </head>
+ <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Pomodoro Timer</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
 
-<body>
-    <h1><span id="tt1">00</span>:<span id="tt">00</span></h1>
-    <button onclick="v()">Start</button>
-    <button onclick="s()">Stop</button>
-    <button onclick="y()">clear</button>
-    <script src="main.js"></script>
-</body>
+ <body>
 
-</html>
+     <h1>Pomodoro Timer</h1>
+     <div id="display">00:00</div>
+
+     <div class="controls">
+         <button onclick="startTimer()">START</button>
+         <button onclick="stopTimer()">STOP</button>
+         <button onclick="resetTimer()">RESET</button>
+     </div>
+
+     <div class="modes">
+         <button onclick="setMode(25)">POMODORO</button>
+         <button onclick="setMode(5)">SHORT BREAK</button>
+         <button onclick="setMode(15)">LONG BREAK</button>
+     </div>
+
+     <audio id="alertSound" src="https://actions.google.com/sounds/v1/alarms/digital_watch_alarm_long.ogg" preload="auto"></audio>
+
+     <script src="script.js"></script>
+ </body>
+
+ </html>
